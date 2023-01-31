@@ -1,3 +1,10 @@
+% --------------------------------------------------------------------------
+%
+% This script reads the database file and generates the Train and Test
+% sets for each company.
+%
+% --------------------------------------------------------------------------
+
 %Initialize workspace.
 clc
 clear

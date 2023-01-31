@@ -1,3 +1,10 @@
+% --------------------------------------------------------------------------
+%
+% This script reads the database file and generates the Train and Test sets,
+% using IW data. Then it performs KMeans classifications, to predict the match results.
+%
+% -------------------------------------------------------------------------
+
 %Initialize workspace.
 clc
 clear

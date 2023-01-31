@@ -1,3 +1,10 @@
+% --------------------------------------------------------------------------
+%
+% This script creates a simple neural network for B365 data,
+% and predicts the match results, validating using K-fold validation.
+%
+% --------------------------------------------------------------------------
+
 function [TrainCorrectClassificationRatio, TestCorrectClassificationRatio] = I_B365(conn)
 
 % Retrieval of matches for B365. Records with empty B365H, B365D and B365A are ignored.

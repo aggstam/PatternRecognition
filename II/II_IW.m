@@ -1,3 +1,10 @@
+% --------------------------------------------------------------------------
+%
+% This script creates a multilayer neural network for IW data,
+% and predicts the match results, validating using K-fold validation.
+%
+% --------------------------------------------------------------------------
+
 function [TrainCorrectClassificationRatio, TestCorrectClassificationRatio] = II_IW(conn)
 
 % Retrieval of matches for IW. Records with empty IWH, IWD and IWA are ignored.

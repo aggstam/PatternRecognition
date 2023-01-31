@@ -1,3 +1,10 @@
+% --------------------------------------------------------------------------
+%
+% This script creates a simple neural network for LB data,
+% and predicts the match results, validating using K-fold validation.
+%
+% --------------------------------------------------------------------------
+
 function [TrainCorrectClassificationRatio, TestCorrectClassificationRatio] = I_LB(conn)
 
 % Retrieval of matches for LB. Records with empty LBH, LBD and LBA are ignored.

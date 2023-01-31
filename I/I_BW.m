@@ -1,3 +1,10 @@
+% --------------------------------------------------------------------------
+%
+% This script creates a simple neural network for BW data,
+% and predicts the match results, validating using K-fold validation.
+%
+% --------------------------------------------------------------------------
+
 function [TrainCorrectClassificationRatio, TestCorrectClassificationRatio] = I_BW(conn)
 
 % Retrieval of matches for BW. Records with empty BWH, BWD and BWA are ignored.

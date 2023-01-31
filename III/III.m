@@ -1,3 +1,11 @@
+% --------------------------------------------------------------------------
+%
+% This script reads the database file and generates the Train and Test sets.
+% Then it creates a multilayer neural network and predicts the match results, 
+% validating using K-fold validation.
+%
+% -------------------------------------------------------------------------
+
 %Initialize workspace.
 clc
 clear
