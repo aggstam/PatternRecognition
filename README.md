@@ -10,8 +10,6 @@ Scripts folders:
 For each classifier, K-Fold validation has been implemented to measure accuracy statistics.
 <br>
 SQLite file should be extracted in root folder, so all scripts can access it.
-<br>
-<br>
-References:
-<br>
+
+## References
 [1] https://www.kaggle.com/hugomathien/soccer
